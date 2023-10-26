@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Protofolio</title>
+</head>
+<body>
+<div class="topnav">
+    <img src="logo.png" alt="">
+  <div>
+    <h1>M.karthikkumar</h1>
+    <h4>WEB DEVELOPER</h4>
+</div>
+</div>
+<nav>
+    <ul>
+        <li><a href="#about">about</a></li>
+        <li><a href="#education">education</a></li>
+        <li><a href="#skills">skills</a></li>
+        <li><a href="#contact">contact</a></li>
+        <li><a href="#mail">E-Mail</a></li>
+        
+    </ul>
+</nav>
+
+<section class="content">
+<div class="inner" id="about">
+    <h2>about me :</h2>
+    <p>hello everyone!my name is mohan and i am a computer science student.i consider my self as a responsible and ordenary person</p>
+</div>
+<div class="inner" id="education">
+    <h2>education :</h2>
+   <ul>
+    <li>B.sc.computer science</li>
+</ul>
+    <p>vidhyaa giri college of arts and science</p>
+</div>
+<div class="inner" id="skills">
+    <h2>skills :</h2>
+    <ul>
+        <li>c programming</li>
+        <li>JAVA</li>
+        <li>DBMS</li>
+        <li>.net</li>
+    
+</ul>
+</div>
+<div class="inner" id="contact">
+    <h2>contact :</h2>
+    <p>9894986952</p>
+</div>
+<div class="inner" id="mail">
+<h2>mail ID :</h2>
+<p>Karthikkumar@gmail.com</p>
+</div>
+
+</div>
+
+<div class="inner">
+    <div class="footer">
+        <div class="date00">
+            <SCRIPT LANGUAGE="JavaScript">
+            var now = new Date();
+            
+            var days = new Array('Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday');
+            
+            var months = new Array('January','February','March','April','May','June','July','August','September','October','November','December');
+            
+            var date = ((now.getDate()<10) ? "0" : "")+ now.getDate();
+            
+            function fourdigits(number)	{
+                return (number < 1000) ? number + 1900 : number;
+                                            }
+            today =  days[now.getDay()] + ", " +
+                     months[now.getMonth()] + " " +
+                     date + ", " +
+                     (fourdigits(now.getYear())) ;
+            
+            document.write(today);
+            </script>
+             </div>
+    </div>
+</div>
+
+</section>
+</body>
+</html>
